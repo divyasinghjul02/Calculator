@@ -1,0 +1,55 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.number {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  text-transform: uppercase;
+  border-radius: 7px;
+  flex-basis: 23.66%;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 4px;
+}
+
+.calc {
+  color: #fff;
+  background-color: rgb(45, 45, 234);
+}
+
+.answer {
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .number {
+    align-items: center;
+    justify-content: center;
+  }
+  button {
+    margin: 0;
+  }
+  input {
+    width: 94%;
+  }
+}
